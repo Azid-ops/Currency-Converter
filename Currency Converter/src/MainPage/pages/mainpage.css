@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.call__outer__section
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+    color: #5c5c77;
+    transition: 0.2s ease;
+    margin-left: 5rem;
+}
+
+.myNavbar
+{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    display: flex;
+}
+
+.myCurrency
+{
+    position:absolute;
+    right: 1rem;
+}
+
+.currencyConverterTitle
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.details
+{
+    margin: auto;
+}
+
+.details__inner
+{
+    text-align: center;
+    margin-top:2rem;
+}
+
+.featureNotAvailable
+{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 6px;
+    width: 30%;
+    position:relative;
+}
+
+.all__currencies
+{
+    display: flex;
+    margin: auto;
+    margin-top: 5rem;
+    border:1px solid black;
+    width:60%;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 6px;
+    height: 5rem;
+    height: 5rem;
+
+}
+
+.all__currencies > div
+{
+    margin: auto;
+    border: 1px solid green;
+    padding:0.5rem;
+    border-radius: 6px;
+}
+
+.faRemove
+{
+    color: white;
+    margin-left: 0.3rem;
+    position: absolute;
+    right: 0.2rem;
+    top:0.6rem;
+    padding: 0.1rem 0.3rem 0.1rem;
+    border-radius: 6px;
+    background-color: red;
+}
+
+.output
+{
+    margin-top: 2rem;
+}
+.all__currencies > div:hover
+{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+.convert
+{
+    padding: 0.5rem 1rem 0.5rem;
+    background-color: green;
+    display: inline-block;
+    border-radius: 6px;
+    color: white
+}
